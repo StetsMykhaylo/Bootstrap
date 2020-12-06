@@ -1,0 +1,23 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+
+}
+
+
+.wrapper {
+  font-family: arial;
+  width: 100%;
+
+
+}
+
+.container>div:nth-child(4) {
+  background-color: paleturquoise !important;
+}
+.container>div:nth-child(n+5) {
+  border-bottom: grey solid 2px !important;
+}
